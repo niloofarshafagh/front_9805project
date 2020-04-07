@@ -1,0 +1,510 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: white;
+
+}
+
+.container2 {
+    margin: auto;
+    width: 230px;
+    padding: 40px;
+}
+
+/*-------- Start Nav --------*/
+nav {
+    background-color: #f2f2f2;
+    height: auto;
+
+}
+
+nav ul.menu {
+    padding: 10px;
+    margin: 0 auto;
+    width: 750px;
+}
+
+nav ul.menu li {
+    display: inline-block;
+    padding: 10px 10px;
+    font-size: 17px;
+}
+
+nav ul.menu li.active:hover {
+    background-color: #b8d5d5;
+}
+
+nav ul.menu li a {
+    color: black;
+    text-decoration: none;
+
+}
+
+/*--------- End Nav---------*/
+.container {
+    margin: auto;
+    width: 1550px;
+}
+
+#photo {
+    margin-left: 205px;
+    margin-bottom: 30px;
+    padding-top: 40px;
+}
+
+@font-face {
+    font-family: anotherNilo;
+   
+    src: url('./../font/another.eot');
+    /* IE9 Compat Modes */
+    src: url('./../font/another.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('./../font/another.woff2') format('woff2'),
+        /* Super Modern Browsers */
+        url('./../font/another.woff') format('woff'),
+        /* Pretty Modern Browsers */
+        url('./../font/another.ttf') format('truetype'),
+        /* Safari, Android, iOS */
+        url('./../font/another.svg#svgFontName') format('svg');
+    /* Legacy iOS */
+}
+
+h1 {
+    text-align: center;
+    font-family: anotherNilo;
+    margin: 15px;
+}
+
+p {
+    text-align: center;
+    font-family: anotherNilo !important;
+    font-size: 25px;
+    padding: 5px;
+}
+
+/*------- nav h3 ------*/
+.container3 {
+    margin-top: 55px;
+    display: inline-block;
+    width: 100%;
+}
+
+.container3 h3 {
+    float: left;
+    color: #4e4e4e;
+
+}
+
+.container3 nav {
+    float: right;
+}
+
+.container3 nav ul.menu2 {
+    background-color: white;
+}
+
+.container3 nav ul.menu2 li {
+    display: inline-block;
+    color: black;
+}
+.container3 nav ul.menu2 li.activate:hover{
+    background-color: #77b5b5;
+}
+
+.container3 nav ul.menu2 li a {
+    color: black;
+    padding: 4px;
+    font-size: 19px;
+    text-decoration: none;
+    position: relative;
+    padding: 8px;
+}
+.container3 nav ul.menu2 li a{
+    color: #black;
+}
+
+.container3 nav ul.menu2 li a:after {
+    position: absolute;
+    content: '/';
+    padding: 5px;
+    font-size: 16px;
+    color: black;
+    
+}
+.container3 nav ul.menu2 li:last-child a:after{
+    content: '';
+    display: none;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+/*------- nav h3 ------*/
+
+/*-----Gallery-----*/
+section.gallery {
+    background-color: grey;
+    margin: 10px auto;
+    width: 90%;
+    border: solid 1px black;
+}
+
+section.gallery img {
+    margin: 20px auto;
+    width: 26%;
+    padding: 20px;
+    margin-left: 40px;
+
+}
+
+/*-----Gallery-----*/
+
+/*---- Buttom ----*/
+#buttom {
+    text-align: center;
+    padding: 10px;
+}
+
+.blue {
+    width: 240px;
+    height: 70px;
+    background-color: #57a4a4;
+    margin-left: 520px;
+    margin-top: 10px;
+
+}
+
+.blue:hover {
+    background-color: #a0688b;
+}
+
+.blue p {
+    padding-top: 20px;
+    font-family: 'another';
+    color: white;
+    font-size: 25px;
+}
+
+.purple {
+    width: 240px;
+    height: 70px;
+    background-color: #a0688b;
+    margin-left: 790px;
+    display: inline-block;
+    position: relative;
+    bottom: 67px;
+
+}
+
+.purple:hover {
+    background-color: #57a4a4;
+}
+
+.purple p {
+    padding-top: 17px;
+    font-family: 'another';
+    color: white;
+    font-size: 25px;
+}
+
+/*---- Buttom ----*/
+/*---- Fa ------*/
+.container4 {
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 40px;
+    height: 550px;
+    top: 5px;
+    background-color: #f7f7f7;
+    margin-bottom: 0px;
+
+}
+
+.container4 .text {
+    margin-left: 370px;
+    width: 510px;
+    height: 90px;
+
+}
+
+.container4 .text h2 {
+    padding-top: 120px;
+    color: #535656;
+}
+
+.container4 ul {
+    margin-left: 250px;
+    margin-top: 7px;
+    padding: 80px;
+}
+
+.container4 ul li {
+    display: inline-flex;
+    width: 33%;
+
+
+}
+
+.containerText {
+    display: flex;
+    flex-direction: column;
+    padding: 0 48px 0 15px;
+}
+
+header {
+    font-size: 31px;
+    margin-bottom: 10px;
+}
+
+.containerDescription p {
+    text-align: left;
+}
+
+.containerText {
+    padding-left: 15px;
+    padding: 2px;
+}
+
+.containerImg {
+    padding: 30px;
+    font-size: 24px;
+}
+
+/*---- Fa ------*/
+
+/*----- Background -----*/
+.background {
+    background-image: url(./../images/kaj.png);
+/*    background-image: url(./../assets/kaj.png)*/
+
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    padding-bottom: 230px;
+    padding-top: 20px;
+}
+
+.background .txtback {
+
+    width: 690px;
+    height: 100px;
+    margin: auto;
+    padding-top: 120px;
+
+}
+
+.background .txtback #txt {
+
+    text-align: center;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.background .txtback p {
+    color: white;
+    font-size: 30px;
+    padding-bottom: 10px;
+
+}
+
+.background .txtback #txt1 {
+    color: #57a4a4;
+    text-align: center;
+    padding-top: 40px;
+}
+
+/*----- Background -----*/
+
+/*------ IMG --------*/
+.container5 {
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 40px;
+    height: 560px;
+    top: 20px;
+    margin-bottom: 0px;
+
+}
+
+.container5 .text3 {
+    margin-left: 540px;
+    width: 510px;
+    height: 90px;
+}
+
+.container5 .text3 #text {
+    padding-top: 120px;
+    color: #535656;
+}
+
+.container5 ul {
+
+    margin-left: 450px;
+    margin-top: 7px;
+    padding: 80px;
+}
+
+.container5 ul li {
+    display: inline-flex;
+    width: 45%;
+}
+
+.containerimg {
+    padding: 40px;
+}
+
+.containertext {
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px 0 15px;
+}
+
+.containertext .containerheader {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.containerp {
+    text-align: left;
+}
+
+/*------ IMG --------*/
+
+/*--------- 4photo -------*/
+.container6 {
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 40px;
+    height: 500px;
+    top: 270px;
+    background-color: #f7f7f7;
+    margin-bottom: 0px;
+}
+
+.container6 .teext {
+    padding-left: 0;
+}
+
+.container6 .teext h2 {
+    color: #4e4e4e;
+    padding-left: 265px;
+    float: left;
+    margin-left: 460px;
+    margin-top: 35px;
+}
+
+.container6 .teext h3 {
+    float: left;
+    margin-left: 640px;
+    padding-top: 35px;
+
+}
+
+.container6 .teext h3 #instagram {
+    float: left;
+    padding-left: 3;
+}
+
+.container6 .teext h3 #flash {
+    
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+.container6 .imgg {
+    display: inline-block;
+}
+
+.container6 .imgg .photoo {
+    margin-left: 740px;
+    margin-bottom: 40px;
+}
+
+.container6 .imgg .photoo img {
+    padding-right: 1px;
+    display: inline-flex;
+    margin-top: 10px;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+/*--------- 4photo -------*/
+
+/*-------- black back -----*/
+.blackback {
+    position: relative;
+    left: 0;
+    right: 0;
+    height: 450px;
+    margin-top: 200px;
+    background-color: #1e1f20;
+}
+
+.blackback .blacktextt {
+    text-align: center;
+    color: white;
+}
+
+.blackback .blacktextt h2 {
+    padding-top: 70px;
+}
+
+.blackback .blacktextt p {
+    padding: 40px;
+    color: #afafaf;
+}
+
+.blackback .blacktextt ul {
+    padding-bottom: 10px;
+}
+.blackback .blacktextt ul li{
+    display: inline-block;
+    padding: 10px;
+}
+.blackback .blacktextt ul li a{
+    text-decoration: none;
+    color: #b9b9b9;
+    position: relative;
+    padding: 6px;
+}
+.blackback .blacktextt ul li a:after{
+    position: absolute;
+    content: '/';
+    padding: 5px;
+    font-size: 20px;
+}
+.blackback .blacktextt ul li:last-child a:after{
+    content: '';
+}
+
+/*-------- black back -----*/
+.containerr {
+    position: relative;
+    left: 0;
+    right: 0;
+    height: 100px;
+    background-color: black;
+}
+
+.containerr h2 {
+    color: #7d7d7e;
+    text-align: center;
+    padding-top: 30px;
+}
+
+/*-------- black back -----*/
